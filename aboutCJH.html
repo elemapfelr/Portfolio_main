@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About CJH</title>
+    <link rel="stylesheet" href="css/header_footer.css">
+    <link rel="stylesheet" href="css/aboutCJH.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
+    <script src="js/aboutCJH.js" defer></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon_io/site.webmanifest">
+    <!-- 스크롤관련 제이쿼리 -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- 차트관련 제이쿼리 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.0/chart.min.js"
+        integrity="sha512-asxKqQghC1oBShyhiBwA+YgotaSYKxGP1rcSYTDrB0U6DxwlJjU59B67U8+5/++uFjcuVM8Hh5cokLjZlhm3Vg=="
+        crossorigin="anonymous"></script>
+    <script src="js/chart.js" defer></script>
+
+</head>
+
+<body>
+    <div id="wrap">
+        <div class="header">
+            <div class="inner-header">
+                <div class="nav">
+                    <div class="gnb">
+                        <h1 class="logo"><a href="index.html"><img id='logoId'
+                                    src="img/header_footer/signature_logo_black.png" alt="LOGO"></a>
+                        </h1>
+                        <div class="menu">
+                            <ul>
+                                <li><a href="aboutCJH.html">About CJH</a></li>
+                                <li><a href="Industrial.html">Industrial</a></li>
+                                <li><a href="UIUX.html">UI,UX</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li>
+                                    <button class="dark">Dark Mode</button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="lnb">
+                            <span class="lnbBtn">
+                                <img id="lnbButton" src="img/header_footer/lnb-button.png" alt="left menu button">
+                            </span>
+                            <div class="leftMenu">
+                                <span class="lnbCancel">X</span>
+                                <ul>
+                                    <li><a href="aboutCJH.html">About CJH</a></li>
+                                    <li><a href="Industrial.html">Industrial</a></li>
+                                    <li><a href="UIUX.html">UI,UX</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                    <li>
+                                        <button class="darkmini">Dark Mode</button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="inner-container">
+                <div class="lcon">
+                    <ul>
+                        <li class="locationOn"></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="sections">
+                    <div class="section_1">
+                        <div class="main_img" data-aos="fade-up" data-aos-duration="1000"
+                            data-aos-anchor-placement="top-bottom">
+                            <img src="img/logo_blue.png" alt="CJH logo blue">
+                        </div>
+                    </div>
+
+                    <div class="scroll">
+                        <span></span>
+                        <p>SCROLL</p>
+                    </div>
+
+                    <div class="section_2">
+                        <div class="intro" data-aos="fade-in" data-aos-duration="1500"
+                            data-aos-anchor-placement="center-bottom">
+                            <span class="line"></span>
+                            <p class="txt main">
+                                백로 효과는 우아한 백로처럼 남들과 다르게 보이려는 심리가 반영되어, 특정상품에 많은 사람이 몰리면
+                                희소성이 떨어져 차별화를 위해 다른 상품을 구매하려는 현상을 말합니다.<br>
+                                이 단어는 저 자신을 설명하는 단어이기도 합니다.<br>
+                                물론 세상의 유행을 따라가는 것도 디자이너에게 필요한 역량이지만,
+                                자신의 독자성을 잃지 않는 것이 가장 중요하다 생각합니다.<br>
+                                그 때문에 저는 유행을 따르되,
+                                항상 남들과 차별점을 두려고 하며 이는 제 디자인 철학에 가장 중요하게 반영되는 요소입니다.
+                            </p>
+                            <span class="line"></span>
+                        </div>
+                        <div class="info" data-aos="fade-left" data-aos-duration="1500"
+                            data-aos-anchor-placement="center-bottom">
+                            <span class="infoTitle txt">PERSONAL INFORMATION</span>
+                            <div class="info-con">
+                                <img src="img/about/portrait.png" alt="portrait">
+                                <div class="personal">
+                                    <ul>
+                                        <li>
+                                            <p class="txt title">Name</p>
+                                            <p class="txt con">Junhyeok Choi</p>
+                                        </li>
+                                        <li>
+                                            <p class="txt title">Birth</p>
+                                            <p class="txt con">1996.11.23</p>
+                                        </li>
+                                        <li>
+                                            <p class="txt title">Phone</p>
+                                            <p class="txt con">010-5531-3598</p>
+                                        </li>
+                                        <li>
+                                            <p class="txt title">E-mail</p>
+                                            <p class="txt con">elemapfelr@gmail.com</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="edu">
+                                    <p class="title">Education</p>
+                                    <ul>
+                                        <li>
+                                            <p class="txt title">2021.08</p>
+                                            <p class="txt con">굿잡아카데미 강남<br>
+                                                스마트기기 UXUI 웹디자인&웹퍼블리셔<br>
+                                                과정 수료</p>
+                                        </li>
+                                        <li>
+                                            <p class="txt title">2021.02</p>
+                                            <p class="txt con">건국대학교 글로컬캠퍼스<br>
+                                                산업디자인학과 졸업</p>
+                                        </li>
+                                        <li>
+                                            <p class="txt title">2018.09</p>
+                                            <p class="txt con">의무경찰 만기제대</p>
+                                        </li>
+                                        <li>
+                                            <p class="txt title">2015.02</p>
+                                            <p class="txt con">동양고등학교 졸업</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="skills">
+                                    <p class="title">Skills</p>
+                                    <ul>
+                                        <li>
+                                            <img src="img/about/skill_0.png" alt="Illustrator">
+                                            <p class="tag txt">Illustrator</p>
+                                        </li>
+                                        <li>
+                                            <img src="img/about/skill_1.png" alt="Photoshop">
+                                            <p class="tag txt">Photoshop</p>
+                                        </li>
+                                        <li>
+                                            <img src="img/about/skill_2.png" alt="Rhinoceros">
+                                            <p class="tag txt">Rhinoceros</p>
+                                        </li>
+                                        <li>
+                                            <img src="img/about/skill_3.png" alt="Keyshot">
+                                            <p class="tag txt">Keyshot</p>
+                                        </li>
+                                        <li>
+                                            <img src="img/about/skill_4.png" alt="Ultimaker Cura">
+                                            <p class="tag txt">Ultimaker Cura</p>
+                                        </li>
+                                        <li>
+                                            <img src="img/about/skill_5.png" alt="Twinmotion">
+                                            <p class="tag txt">Twinmotion</p>
+                                        </li>
+                                        <li>
+                                            <img src="img/about/skill_6.png" alt="Visual Studio Code">
+                                            <p class="tag txt">Visual Studio Code</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stat" data-aos="fade-right" data-aos-duration="1500"
+                            data-aos-anchor-placement="center-bottom">
+                            <span class="statTitle txt">STAT RADAR CHART</span>
+                            <div class="stat-con">
+                                <!-- <img src="img/about/stat.png" alt="stat radar chart"> -->
+                                <canvas id="myChart" width="400" height="400"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="inner-footer">
+                <div class="footer-con">
+                    <div class="social">
+                        <h3 class="title">SOCIAL</h3>
+                        <ul>
+                            <li><img id="snsfb" src="img/header_footer/sns_facebook_black.png" alt="facebook"></li>
+                            <li><img id="snskt" src="img/header_footer/sns_kakaotalk_black.png" alt="kakaotalk"></li>
+                            <li><img id="snsin" src="img/header_footer/sns_instagram_black.png" alt="instagram"></li>
+                            <li><img id="snsyt" src="img/header_footer/sns_youtube_black.png" alt="youtube"></li>
+                        </ul>
+                    </div>
+                    <div class="contact">
+                        <h3 class="title">CONTACT</h3>
+                        <p class="footertxt">elemapfelr@gmail.com</p>
+                    </div>
+                    <div class="address">
+                        <h3 class="title">COPYRIGHT</h3>
+                        <p class="footertxt">Copyrightⓒ2021 Junhyeok Choi All rights reserved.</p>
+                        <p class="footertxt">All Page content is property of Junhyeok Choi.</p>
+                    </div>
+                </div>
+                <div class="validation">
+                    <p>
+                        <a href="http://validator.kldp.org/check?uri=referer"
+                            onclick="this.href=this.href.replace(/referer$/,encodeURIComponent(document.URL))"><img
+                                src="//validator.kldp.org/w3cimgs/validate/html5-green.png" alt="Valid HTML 5"
+                                height="15" width="80"></a>
+                    </p>
+                    <p>
+                        <a href="http://css-validator.kldp.org/check/referer">
+                            <img style="border:0;width:80px;height:15px"
+                                src="//css-validator.kldp.org/images/validate/css-green" alt="올바른 CSS입니다!" />
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 스크롤관련 제이쿼리 -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
